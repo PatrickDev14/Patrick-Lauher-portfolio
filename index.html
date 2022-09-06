@@ -1,116 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Patrick Lauher | portfolio</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="text-center">Hello! I'm Patrick Lauher</h1>
-      <h2 class="text-center">Full Stack Software Developer</h2>
 
-    </header>
-    <main>
-      <div class="d-flex justify-content-center">
-        <h2>Portfolio</h2>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Patrick Lauher</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Mobile nav toggle button -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- Header -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#projects" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Patrick Lauher</h1>
+      <p>I'm a <span class="typed" data-typed-items="Full Stack Developer, Software Engineer, Software Developer"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/PatrickDev14" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/patrick-lauher" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
-      <section class="container d-flex">
-        <div class="container">
-          <div class="d-flex justify-content-center" style="display: flex; flex: 1; flex-wrap: wrap;">
-            <div class="d-flex card rounded bg-dark col-10 mb-3">
-              <img src="./images/periodic-tables-dashboard.png" class="card-img-top" alt="periodic tables">
-              <div class="card-body">
-                <p class="card-text">
-                  Periodic Tables is a restaurant reservation scheduler and management system. Users are able to add new reservations
-                  to specific future dates & times, as well as edit, cancel, and manage that reservation. 
-                  The application layout was designed with a mobile-first approach.</p>
-                <a href="https://periodictables-pd14-client.herokuapp.com/dashboard" target="_blank" class="card-link">Demo</a>
-                <a href="https://github.com/PatrickDev14/periodic-tables" target="_blank" class="card-link">GitHub repo</a>
-              </div>
-            </div>
-            <div class="d-flex card rounded bg-dark col-10 mb-3">
-              <img src="./images/movies-frontend.png" class="card-img-top" alt="WeLoveMovies frontend">
-              <div class="card-body">
-                <p class="card-text">
-                  The We Love Movies backend project involved building a server with Express, Knex, and Node.
-                  CRUD operations and validation middleware were created for a number of endpoints, to support the user interface.
-                  You can find this project repository at:
-                </p>
-                <a href="https://github.com/PatrickDev14/WeLoveMovies-back-end" target="_blank" card-link">GitHub repo</a>
-              </div>
-            </div>
-          </div>
-      </section>
-      <section class="container d-flex">
-        <div style="display: flex;">
-          <div class="d-flex justify-content-center" style="display: flex;">
-            <div class="d-flex card rounded bg-dark col-10 m-2">
-              <div class="card-title text-center">
-                <h2>About</h2>
-              </div>
-              <div class="card-body">
-                <p class="card-text">
-                  My roles in audio and video production involved developing projects through ideation, content capture, editing, and content delivery.
-                  After many years of publishing content to the web on a weekly basis, I'm deeply interested in developing your engaging website
-                   - where your content and products can best reach <i>your</i> audience!
-                </p>               
-              </div>
-            </div>                    
-      </section>
-      <section class="container d-flex">
-        <div class="container">
-          <div class="d-flex justify-content-center" style="display: flex;">
-            <div class="d-flex card rounded bg-dark col-10 m-2">
-              <img src="images/foliopic.jpg" class="card-img-top" alt="folio pic">
-              <div class="card-body">
-                <p class="card-title">
-                  <h2 class="text-center">
-                    Contact
-                  </h2>
-                </p>
-                <p class="card-text">
-                  If you're hiring new developers to grow your business, or want to
-                  collaborate for a hackathon, please contact me.
-                </p>
-                <p class="card-text">
-                  Let's develop something great together!
-                </p>
-                </p>
-                <p class="card-text">
-                  <l>
-                    <li>
-                      <a
-                      href="https://www.linkedin.com/in/patrick-lauher-821b50225/"
-                      target="_blank"
-                      >LinkedIn</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://github.com/PatrickDev14" target="_blank"
-                      >GitHub</a
-                      >
-                    </li>
-                    <li><a href="mailto:plauher14@gmail.com">Email Patrick</a></li>
-                  </ul>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </section>
-    </main>
+    </div>
+  </section><!-- End Hero -->
 
-    <!--Footer container with lighter contrast vs dark mode. Use copyright symbol.
-    In future version, add nav section?-->
-    <footer>
-      <h3 class="text-center">&copy; PatrickDev14</h3>
-    </footer>
-  </body>
+  <main id="main">
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>
+            I'm a software developer, and I bring a number of skills to my work from other strong tech backgrounds.
+            I've delivered AV content to audiences using live and recorded sound and video, with 500+ experiences.
+            I've enjoyed solving people's tech support problems, from the office to the sound booth.
+            When there's time for fun, I like to work my way up the high mountain ridges, and aim for the next mountain top.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">            
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Experience:</strong>
+                      <a href="#" target="_blank" class="nav-link scrollto"> <span>resume</span></a>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>USA, open to remote and on-site work</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> 
+                      <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact me below</span></a>
+                  </li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Peak List:</strong> 
+                      <a href="https://www.14ers.com/php14ers/usrpeaksv.php?usernum=80096&checklist=14ers&rk=both&nm=named&peakstoshow=all&listd=list"
+                          target="_blank"
+                          class="nav-link scrollto">
+                          <span>14ers and 13ers</span>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p></p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>These are the technologies I can apply to any project</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <img src="/assets/img/skills/html5-logo.png" class="skill-indiv" />
+              <h4>HTML</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/css3-logo.png" class="skill-indiv" />
+              <h4>CSS</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/js-logo.png" class="skill-indiv" />
+              <h4>Javascript</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/react-logo.png" class="skill-indiv" />
+              <h4>React</h4>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/node-logo.png" class="skill-indiv" />
+              <h4>Node</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/express-logo.png" class="skill-indiv" />
+              <h4>Express</h4>
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/postgresql-logo.png" class="skill-indiv" />
+              <h4>PostgreSQL</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <img src="/assets/img/skills/git-logo.png" class="skill-indiv" />
+              <h4>Git</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+    
+    <!-- Project Section -->
+    <section id="projects" class="project section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p></p>
+        </div>
+
+        <div class="row project-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 project-item filter-app">
+            <div class="project-wrap">
+              <img src="assets/img/projects/p1-periodic-tables-dashboard.png" class="img-fluid" alt="">
+              <div class="project-info">
+                <h4>Periodic Tables</h4>
+                <div class="project-links">
+                  <a href="p1-project-details.html" class="project-details-lightbox" data-glightbox="type: external" title="project Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 project-item filter-web">
+            <div class="project-wrap">
+              <img src="assets/img/projects/p2-movies-frontend.png" class="img-fluid" alt="">
+              <div class="project-info">
+                <h4>We Love Movies</h4>
+                <div class="project-links">
+                  <a href="p2-project-details.html" class="project-details-lightbox" data-glightbox="type: external" title="project Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 project-item filter-app">
+            <div class="project-wrap">
+              <img src="assets/img/projects/p3-pomodoro-main.png" class="img-fluid" alt="pomodoro main">
+              <div class="project-info">
+                <h4>Pomodoro Timer</h4>
+                <div class="project-links">
+                  <a href="p3-project-details.html" class="project-details-lightbox" data-glightbox="type: external" title="project Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 col-md-6 project-item filter-card">
+            <div class="project-wrap">
+              <img src="assets/img/project/project-4.jpg" class="img-fluid" alt="">
+              <div class="project-info">
+                <h4>Card 2</h4>
+                <div class="project-links">
+                  <a href="project-details.html" class="project-details-lightbox" data-glightbox="type: external" title="project Details"><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>          -->
+
+        </div>
+
+      </div>
+    </section><!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-12 mt-5 mt-lg-0">
+
+            <form action="https://formsubmit.co/d5e6109939b1c84de4df157d162cbdda" method="POST">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+              </div>
+              <div class="mt-5 text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Patrick Lauher</h3>
+      <p></p>
+      <div class="social-links">
+        <a href="https://github.com/PatrickDev14" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/patrick-lauher" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
